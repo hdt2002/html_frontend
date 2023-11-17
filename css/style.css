@@ -438,7 +438,7 @@ footer {
 }
 .product-content-right-botton {
     padding-top: 40px;
-    border: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     position: relative;
 }
 .product-content-right-botton-top {
@@ -449,6 +449,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    top: -15px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
 }
 .product-content-right-product-qr img {
     width: 20%;
